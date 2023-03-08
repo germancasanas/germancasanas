@@ -1,0 +1,48 @@
+h1{
+    font-weight: bold;
+    color: rgb(227, 236, 227);
+    float: initial;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 46, 23);
+}
+
+#parraf1,#parraf2,#parraf3,#parraf4 {
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: medium;
+    border: 1px solid grey;
+    margin: 3px;
+    padding: 5px;
+}
+/** definimos en clases como distribuir los elementos en la pantalla*/
+.menu{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    border: 1px solid rgb(233, 191, 144);
+    background-color: rgb(159, 192, 107);
+}
+#etiqueta1,#etiqueta2,#etiqueta3 {
+    font-weight: bold;
+}
+
+.principal{
+    width: 70%;
+    float: right;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+/**centramos la imagen*/
+img {
+    display: block;
+    margin: auto;
+}
+/**hacemos la imagen redonda*/
+.circular--square {
+    border-radius: 50%;
+  }
+  
